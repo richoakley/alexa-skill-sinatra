@@ -5,7 +5,7 @@ Bundler.require
 Bundler.require :development if development?
 
 require "sinatra"
-require "sinatra/json"
+require "json"
 require 'open-uri'
 
 require './app'
