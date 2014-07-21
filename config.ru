@@ -8,6 +8,5 @@ require "sinatra"
 require "json"
 require 'open-uri'
 
-
 require './app'
 run Sinatra::Application

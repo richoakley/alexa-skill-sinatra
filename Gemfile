@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'sinatra'
-gem 'thin'
 gem 'rack-coffee'
 gem "tilt-jbuilder", ">= 0.4.0", :require => "sinatra/jbuilder"
 gem "hashie"
