@@ -3,7 +3,8 @@ Bundler.require
 Bundler.require :development if development?
 
 require "sinatra/json"
-require 'open-uri'
+require "open-uri"
+
 
 get '/health' do
   json "ok"
