@@ -12,8 +12,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.2)
-    daemons (1.1.9)
-    eventmachine (1.0.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
     hashie (3.2.0)
@@ -51,10 +49,6 @@ GEM
       tilt (~> 1.3)
     sinatra-reloader (1.0)
       sinatra-contrib
-    thin (1.6.2)
-      daemons (>= 1.0.9)
-      eventmachine (>= 1.0.0)
-      rack (>= 1.0.0)
     thread_safe (0.3.4)
     tilt (1.4.1)
     tilt-jbuilder (0.6.0)
@@ -74,5 +68,4 @@ DEPENDENCIES
   reverse_markdown
   sinatra
   sinatra-reloader
-  thin
   tilt-jbuilder (>= 0.4.0)
