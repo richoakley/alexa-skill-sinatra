@@ -1,3 +1,7 @@
+require "sinatra"
+require "json"
+require 'open-uri'
+
 get '/health' do
   json "ok"
 end
