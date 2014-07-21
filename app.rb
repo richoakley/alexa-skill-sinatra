@@ -1,5 +1,8 @@
-require "sinatra"
-require "json"
+require "bundler"
+Bundler.require
+Bundler.require :development if development?
+
+require "sinatra/json"
 require 'open-uri'
 
 get '/health' do
