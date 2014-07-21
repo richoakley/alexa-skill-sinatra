@@ -67,5 +67,6 @@ DEPENDENCIES
   redcarpet
   reverse_markdown
   sinatra
+  sinatra-contrib
   sinatra-reloader
   tilt-jbuilder (>= 0.4.0)
