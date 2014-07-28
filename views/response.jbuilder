@@ -1,9 +1,9 @@
 json.meta do
-	json.url @url
-	json.title @title
-	json.description @description
-	json.image @image
-	json.author @author
+	json.url @url if @url
+	json.title @title if @title
+	json.description @description if @description
+	json.image @image if @image
+	json.author @author if @author
 	json.length do
 		json.paragraphs @paragraphs.size
 		json.words @words
@@ -12,6 +12,7 @@ end
 
 json.paragraphs @paragraphs do |paragraph|
 	json.type paragraph[:type]
+	json.subtype paragraph[:subtype] if paragraph[:subtype]
 	json.markdown paragraph[:markdown]
 	json.markup paragraph[:markup]
 	unless paragraph[:plaintext].nil?
@@ -26,7 +27,4 @@ json.plaintext @text
 
 json.markdown @markdown
 
-json.markup do
-	json.web @markup[:web]
-	json.mobile @markup[:mobile]
-end
+json.markup @markup
