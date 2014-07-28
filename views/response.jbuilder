@@ -14,7 +14,6 @@ json.paragraphs @paragraphs do |paragraph|
 	json.type paragraph[:type]
 	json.subtype paragraph[:subtype] if paragraph[:subtype]
 	json.markdown paragraph[:markdown]
-	json.markup paragraph[:markup]
 	unless paragraph[:plaintext].nil?
 		json.plaintext paragraph[:plaintext]
 	end
@@ -23,8 +22,4 @@ json.paragraphs @paragraphs do |paragraph|
 	end
 end
 
-json.plaintext @text
-
 json.markdown @markdown
-
-json.markup @markup
