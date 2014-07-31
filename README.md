@@ -28,12 +28,8 @@ Takes an HTML chunk and processes it against the same rules as the GET endpoint.
 
 ## Technical
 
-### Stack
-
 Ruby
 Sinatra
-
-### Testing
 
 - In project root, run 'bundle install' (requires Ruby)
 - 'rackup'
