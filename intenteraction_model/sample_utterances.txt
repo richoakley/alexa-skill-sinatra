@@ -1,0 +1,3 @@
+TestIntent hello world
+NameIntent my name is {Richard Oakley|name}
+NameIntent to say my name is {Richard John Oakley|name}
